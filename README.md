@@ -3,10 +3,10 @@
 ## by Nhat Nguyen
 
 ### Link to GH Pages
-- https://nhaatn.github.io/cpnt260-final/
+- https://nhaatn.github.io/cpnt201-a2/
 
 ### Link to GH Repo
-- https://github.com/nhaatn/cpnt260-final
+- https://github.com/nhaatn/cpnt201-a2
 
 ### Summary of the blog
 - Corgi As Pets is a blog that gives corgi owners information on the breed. This blog is very useful for people looking to own a dog but want to look into corgis before they make a life-long commitment. In the future, this blog will have product reviews specifically for corgis.
