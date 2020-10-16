@@ -1,0 +1,122 @@
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Blog HEADER styling (making it pretty) */
+header {
+  width: 85%;
+  padding: 4rem 0;
+  margin: 5rem auto;
+
+  border: 5px solid paleturquoise;
+  border-radius: 0.5rem;
+
+  text-align: center;
+  font-size: 3.5rem;
+  color: palevioletred;
+}
+
+/* Give HEADER P color and diff font */
+header p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(121, 226, 226);
+}
+
+/* Make blog-post a flexbox and flex-direction COLUMN */
+.blog-post {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Blog image CONTAINER width */
+.blog-post-img {
+  width: 75%;
+}
+
+/* IMAGE styling */
+img {
+  width: 100%;
+  max-width: 1500px;
+  height: auto;
+  margin-bottom: 2rem;
+
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem 1.5rem rgba(0,0,0,0.7);
+}
+
+/* Blog INFO (text) styling */
+.blog-post-info {
+  width: 60%;
+  margin-bottom: 15vh;
+  padding: 2rem 8rem;
+
+  background-color: rgb(236, 236, 236);
+  box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.3);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+/* DATE styling */
+.blog-post-date span {
+  color: rgb(160, 160, 160);
+  font-size: 1.5rem;
+
+  display: block;
+}
+
+/* Blog TITLE styling */
+.blog-post-title {
+  padding: 1.5rem 0;
+
+  font-size: 3.5rem;
+  color: rgb(68, 211, 199);
+  text-transform: uppercase;
+}
+
+/* Blog TEXT styling */
+.blog-post-text {
+  color: rgb(128, 128, 128);
+  font-size: 1.5rem;
+  text-align: left;
+  
+  padding-bottom: 3rem;
+}
+
+/* READ MORE btn styling */
+.blog-post-btn {
+  display: inline-block;
+
+  padding: 1.5rem 3rem;
+
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: palevioletred;
+
+  border: 2px solid palevioletred;
+  border-radius: 0.5rem;
+}
+
+/* READ MORE btn HOVER */
+.blog-post-btn:hover {
+  color: white;
+  background-color: palevioletred;
+}
